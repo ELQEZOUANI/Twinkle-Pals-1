@@ -1,0 +1,227 @@
+[
+  {
+    "id": "01-welcome",
+    "time": "4.36.20",
+    "crop": [
+      56,
+      52,
+      648,
+      1411
+    ],
+    "label": "LET’S MAKE A LITTLE MAGIC!",
+    "title": [
+      "Dress up.",
+      "Dream big!"
+    ],
+    "subtitle": "A little world of outfits, friends & fun.",
+    "footer": "STYLE • PLAY • SMILE",
+    "accent": "#bf3f7c",
+    "wash": "#fbddeb",
+    "avatars": [
+      "poppy",
+      "luna",
+      "zara-pink",
+      "cleo-wings"
+    ]
+  },
+  {
+    "id": "02-meet-your-pals",
+    "time": "4.33.10",
+    "crop": [
+      34,
+      64,
+      648,
+      1415
+    ],
+    "label": "MEET YOUR NEW BESTIES",
+    "title": [
+      "Say hello to",
+      "your new pals!"
+    ],
+    "subtitle": "Meet 12 original friends with their own sparkle.",
+    "footer": "12 ORIGINAL PALS",
+    "accent": "#9760c8",
+    "wash": "#e9ddfb",
+    "avatars": [
+      "cleo-wings",
+      "zara-pink",
+      "luna-party",
+      "milo"
+    ]
+  },
+  {
+    "id": "03-dress-up-studio",
+    "time": "4.33.25",
+    "crop": [
+      40,
+      54,
+      648,
+      1413
+    ],
+    "label": "MADE FOR YOUR IMAGINATION",
+    "title": [
+      "Your style.",
+      "Your sparkle!"
+    ],
+    "subtitle": "Pick the hair, clothes & colors you love.",
+    "footer": "MIX, MATCH & CREATE",
+    "accent": "#9c65cf",
+    "wash": "#e6d9fa",
+    "avatars": [
+      "ivy-cool",
+      "luna-party",
+      "cleo-wings",
+      "poppy"
+    ]
+  },
+  {
+    "id": "04-story-adventures",
+    "time": "4.33.37",
+    "crop": [
+      52,
+      61,
+      650,
+      1415
+    ],
+    "label": "READY FOR A LITTLE ADVENTURE?",
+    "title": [
+      "Little pals.",
+      "Big adventures!"
+    ],
+    "subtitle": "Style, play & collect happy memories.",
+    "footer": "6 STORY ADVENTURES",
+    "accent": "#b88022",
+    "wash": "#ffebbc",
+    "avatars": [
+      "kai",
+      "nova",
+      "sunny",
+      "finn"
+    ]
+  },
+  {
+    "id": "05-style-your-adventure",
+    "time": "4.33.43",
+    "crop": [
+      52,
+      32,
+      648,
+      1414
+    ],
+    "label": "YOUR STORY STARTS WITH STYLE",
+    "title": [
+      "Let’s dress",
+      "for adventure!"
+    ],
+    "subtitle": "A flower crown. A bunny bag. Picnic time!",
+    "footer": "STYLE YOUR PAL",
+    "accent": "#4c927f",
+    "wash": "#d7f1df",
+    "avatars": [
+      "ivy-picnic",
+      "poppy",
+      "cleo-wings",
+      "luna"
+    ]
+  },
+  {
+    "id": "06-bloom-hunt",
+    "time": "4.34.07",
+    "crop": [
+      34,
+      42,
+      648,
+      1414
+    ],
+    "label": "LET’S GO ON A BLOOM HUNT",
+    "title": [
+      "Find flowers.",
+      "Grow smiles!"
+    ],
+    "subtitle": "Help Poppy make a lovely picnic bouquet.",
+    "footer": "PLAY & DISCOVER",
+    "accent": "#469784",
+    "wash": "#d8f0df",
+    "avatars": [
+      "ivy-picnic",
+      "poppy",
+      "sunny",
+      "cleo-wings"
+    ]
+  },
+  {
+    "id": "07-celebrate-friendship",
+    "time": "4.34.21",
+    "crop": [
+      40,
+      43,
+      648,
+      1412
+    ],
+    "label": "TIME TO CELEBRATE TOGETHER",
+    "title": [
+      "Hooray for",
+      "happy friends!"
+    ],
+    "subtitle": "Pick a keepsake for your adventure book.",
+    "footer": "MAKE A HAPPY MEMORY",
+    "accent": "#c94c81",
+    "wash": "#fbdce7",
+    "avatars": [
+      "luna-party",
+      "ivy-picnic",
+      "poppy",
+      "zara-pink"
+    ]
+  },
+  {
+    "id": "08-rewards-and-gifts",
+    "time": "4.34.31",
+    "crop": [
+      54,
+      42,
+      648,
+      1414
+    ],
+    "label": "LITTLE WINS, BIG SMILES",
+    "title": [
+      "You did it!",
+      "Time to sparkle!"
+    ],
+    "subtitle": "Earn stars & discover lovely outfit gifts.",
+    "footer": "STARS & OUTFIT GIFTS",
+    "accent": "#bb8225",
+    "wash": "#ffedc9",
+    "avatars": [
+      "cleo-wings",
+      "luna-party",
+      "nova",
+      "ivy-picnic"
+    ]
+  },
+  {
+    "id": "09-my-pals",
+    "time": "4.35.17",
+    "crop": [
+      30,
+      43,
+      648,
+      1413
+    ],
+    "label": "YOUR LITTLE CIRCLE OF FRIENDS",
+    "title": [
+      "Your pals.",
+      "All together!"
+    ],
+    "subtitle": "Save your favorite looks & style them again.",
+    "footer": "SAVE THE LOOKS YOU LOVE",
+    "accent": "#bd559e",
+    "wash": "#ecdff8",
+    "avatars": [
+      "ivy-cool",
+      "zara-pink",
+      "luna",
+      "milo"
+    ]
+  }
+]
