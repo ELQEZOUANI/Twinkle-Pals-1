@@ -40,7 +40,7 @@ Game progress is stored locally on the device. There is no account or cloud-save
 - Picture preview and 900 × 1200 PNG export: the native iOS save/share sheet, with an iPad popover anchor.
 - Original synthesized pop and celebration effects, contextual bloom/sparkle/cheer/purr reactions and a saved mute setting.
 - Two layouts designed for iPhone and iPad. Both use touch navigation along the bottom. iPhones keep a vertically scrolling studio in either orientation; iPads use a two-pane studio when there is space, with compact controls in narrow multitasking windows. Grids follow phone/tablet orientation, safe areas protect controls, and rotating keeps the current outfit. The category selector starts collapsed and folds away after a selection.
-- Original app icons. No login, purchases or backend. iOS development builds use AdMob test ads.
+- Original app icons. No login, purchases or backend. Ads are disabled in iOS development builds.
 - A Twinkle Pals splash with three original animated characters and a blooming flower loading trail. Matching native launch artwork appears before Flutter starts. Optional AdMob app-open placements run at startup and safe returns to Home; offline/no-fill never blocks play.
 - A Settings page, opened from the header gear, with saved sound and reduced-motion controls, a collection summary and the How to play guide. Returning keeps the studio draft intact; device motion preferences are also respected.
 - Settings also includes Share the app (native share/copy fallback), Rate the app (platform store links), and a parent-gated Privacy & legal button that opens the published Twinkle Pals Blogger policy. Open-source licenses remain available in-app; configure the remaining publisher links using [Settings app links](docs/app-links.md).
@@ -95,7 +95,7 @@ Flutter analysis is clean, all 77 game tests pass, and the iOS simulator debug b
 
 ## Release work still needed
 
-This is a playable first version. App-store release still needs physical-device testing (including real SDK test ads, offline/no-fill, ad dismissal, export and audio), developer-account signing, store screenshots/descriptions, final age-group and child-directed store declarations, and store submissions. Live ads require the configuration and provider review described in [Ads setup](docs/ads-setup.md). Rooms, additional adventures, cloud saves and localization are future features.
+This is a playable first version. App-store release still needs physical-device testing (including offline/no-fill, ad dismissal, export and audio), developer-account signing, store screenshots/descriptions, final age-group and child-directed store declarations, and store submissions. Live ads require both release enable flags and provider review for the Kids Category. Rooms, additional adventures, cloud saves and localization are future features.
 
 ## Implementation references
 

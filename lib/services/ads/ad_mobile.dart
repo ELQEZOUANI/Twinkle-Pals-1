@@ -10,33 +10,32 @@ GameAds createGameAds() {
   if (defaultTargetPlatform != TargetPlatform.iOS) {
     return const DisabledAds('Rewarded ads are available in the iOS app.');
   }
+  if (!kReleaseMode) {
+    return const DisabledAds('Ads are disabled in development builds.');
+  }
   const configuredRewarded = String.fromEnvironment('ADMOB_REWARDED_IOS');
   const configuredInterstitial = String.fromEnvironment(
     'ADMOB_INTERSTITIAL_IOS',
   );
   const configuredAppOpen = String.fromEnvironment('ADMOB_APP_OPEN_IOS');
-  const productionRewarded = 'ca-app-pub-2535194044471316/3260901736';
-  const productionInterstitial = 'ca-app-pub-2535194044471316/3564154065';
-  const productionAppOpen = 'ca-app-pub-2535194044471316/2251072399';
-  const testRewarded = 'ca-app-pub-3940256099942544/1712485313';
-  const testInterstitial = 'ca-app-pub-3940256099942544/4411468910';
-  const testAppOpen = 'ca-app-pub-3940256099942544/5575463023';
+  const productionRewarded = 'ca-app-pub-9283129936552011/6897313278';
+  const productionInterstitial = 'ca-app-pub-9283129936552011/6695887319';
+  const productionAppOpen = 'ca-app-pub-9283129936552011/9523476614';
   final rewarded = configuredRewarded.isNotEmpty
       ? configuredRewarded
-      : (kReleaseMode ? productionRewarded : testRewarded);
+      : productionRewarded;
   final interstitial = configuredInterstitial.isNotEmpty
       ? configuredInterstitial
-      : (kReleaseMode ? productionInterstitial : testInterstitial);
+      : productionInterstitial;
   final appOpen = configuredAppOpen.isNotEmpty
       ? configuredAppOpen
-      : (kReleaseMode ? productionAppOpen : testAppOpen);
+      : productionAppOpen;
   // Production serving requires an explicit release configuration. Kids Category
   // iOS advertising also needs a provider/creative review before enabling it.
-  if (kReleaseMode &&
-      (!const bool.fromEnvironment('ENABLE_LIVE_ADS') ||
-          !const bool.fromEnvironment('ENABLE_KIDS_IOS_ADS') ||
-          rewarded.isEmpty ||
-          interstitial.isEmpty)) {
+  if (!const bool.fromEnvironment('ENABLE_LIVE_ADS') ||
+      !const bool.fromEnvironment('ENABLE_KIDS_IOS_ADS') ||
+      rewarded.isEmpty ||
+      interstitial.isEmpty) {
     return const DisabledAds('Ads are not available in this version yet.');
   }
   return MobileGameAds(

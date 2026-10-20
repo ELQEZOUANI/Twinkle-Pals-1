@@ -76,7 +76,7 @@ class PrivacyLegalPage extends StatelessWidget {
                       ),
                       _paragraph(
                         'Advertisements',
-                        'iOS development builds use Google test ads. Live ads are disabled unless configured for release. When ads run, Google’s SDK may process network information, device information, ad interactions and diagnostics. Test ads are not a guarantee that no data is processed. Ad requests use child-directed settings and request non-personalized ads.',
+                        'Ads are disabled in development builds. Live ads are enabled only in configured release builds. When ads run, Google’s SDK may process network information, device information, ad interactions and diagnostics. Ad requests use child-directed settings and request non-personalized ads.',
                       ),
                       _paragraph(
                         'Sharing and outside links',

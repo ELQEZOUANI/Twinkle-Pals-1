@@ -18,7 +18,8 @@ class AppLinks {
     this.privacyUrl = const String.fromEnvironment(
       'PRIVACY_POLICY_URL',
       // Blogger's separate mobile template omits this theme's policy content.
-      defaultValue: 'https://twinklepals.blogspot.com/2026/10/blog-post.html?m=0',
+      defaultValue:
+          'https://twinklepals.blogspot.com/2026/10/blog-post.html?m=0',
     ),
     this.termsUrl = const String.fromEnvironment('TERMS_URL'),
   });
